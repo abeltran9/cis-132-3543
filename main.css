@@ -1,0 +1,48 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FDF6E3; /* Light pastel yellow */
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #B5EAD7; /* Pastel green */
+  padding: 10px;
+  text-align: center;
+}
+
+/* Navigation menu */
+nav ul {
+  background-color: #FFB7B2; /* Pastel pink */
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Section styling */
+section {
+  background-color: #FFF5E1; /* Soft pastel peach */
+  padding: 20px;
+  margin: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #C7CEEA; /* Soft pastel blue */
+  padding: 10px;
+  text-align: center;
+}
