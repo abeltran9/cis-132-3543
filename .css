@@ -1,0 +1,77 @@
+/* General body styling with pastel background */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FDF6E3; /* Light pastel yellow */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333; /* Neutral text color for readability */
+}
+
+/* Header styling with a pastel green background */
+header {
+  background-color: #B5EAD7; /* Soft pastel green */
+  color: #333; /* Darker text color for contrast */
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Navigation styling with pastel color accents */
+nav ul {
+  background-color: #FFB7B2; /* Pastel pink */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  padding: 10px 20px;
+}
+
+nav ul li a {
+  color: #333; /* Dark text for contrast */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  background-color: #FFDAC1; /* Light pastel peach for hover effect */
+}
+
+/* Section styling with a pastel white background */
+section {
+  background-color: #FFF5E1; /* Soft pastel peach/cream */
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px; /* Slightly rounded corners for softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Footer styling with a pastel blue background */
+footer {
+  background-color: #C7CEEA; /* Soft pastel blue */
+  color: #333;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Heading styles */
+h1, h2 {
+  color: #333; /* Neutral text color */
+}
+
+/* Styling for ordered lists */
+ol {
+  padding-left: 20px;
+  color: #333;
+}
+
+/* Styling for list items */
+ol li {
+  margin-bottom: 10px;
+}
