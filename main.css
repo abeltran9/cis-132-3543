@@ -5,23 +5,25 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
-  max-width: 80%; /* For a centered layout */
-  margin: auto; /* Centers the layout */
 }
 
 /* Header */
 header {
   background-color: #B5EAD7; /* Pastel green */
-  padding: 10px;
+  padding: 20px;
   text-align: center;
+  border-radius: 10px; /* Rounded corners */
+  border: 2px solid #FFB7B2; /* Border with pastel pink */
 }
 
 /* Navigation menu */
 nav ul {
   background-color: #FFB7B2; /* Pastel pink */
   list-style-type: none;
-  padding: 0;
+  padding: 10px;
   text-align: center;
+  border-radius: 10px;
+  border: 2px solid #C7CEEA; /* Soft pastel blue border */
 }
 
 nav ul li {
@@ -33,24 +35,34 @@ nav ul li a {
   text-decoration: none;
   color: #333;
   font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
-/* Main section */
-main {
-  width: 70%;
-  float: left;
+/* Section styling */
+section {
   background-color: #FFF5E1; /* Soft pastel peach */
   padding: 20px;
   margin: 10px;
 }
 
-/* Sidebar (Aside) */
-aside {
-  width: 30%;
-  float: left;
-  background-color: #FFF5E1; /* Soft pastel peach */
+/* Two-column layout section */
+.two-column-layout {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
   padding: 20px;
-  margin: 10px;
+  background-color: #FFF5E1; /* Soft pastel peach */
+  border-radius: 15px;
+  border: 2px solid #C7CEEA; /* Soft pastel blue border */
+}
+
+.column {
+  flex-basis: 45%;
+  padding: 20px;
+  background-color: #FDF6E3; /* Light pastel yellow */
+  border-radius: 10px;
+  border: 2px solid #FFB7B2; /* Pastel pink */
 }
 
 /* Footer */
@@ -58,5 +70,6 @@ footer {
   background-color: #C7CEEA; /* Soft pastel blue */
   padding: 10px;
   text-align: center;
-  clear: both;
+  border-radius: 10px;
+  border: 2px solid #B5EAD7; /* Pastel green */
 }
